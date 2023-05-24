@@ -7,7 +7,7 @@ This data set consists of data about all games entered in the last 9 iterations 
 For each game, there are several numerical and categorical features available. <br/>
 The training data consists of games entered in LD38 through 45, while the test data comes from LD46. LD46 was the largest Ludum Dare competition yet by a substantial margin, presumably due to a large influx of new participants on account of COVID-19 quarantine; as such, keep in mind that there may be some shift in the distribution between the training and test set.
 ## Run Program
-`python3 main.py`
-You may also need to install xgboost using `pip install xgboost`
+`python3 main.py` <br/>
+Install xgboost using `pip install xgboost` if needed.
 ## Result 
 The program has a prediction accuracy of 92.4% on the test set.
