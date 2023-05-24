@@ -6,3 +6,5 @@ Ludum Dare is a well-known, long-running online game jam. It is essentially a co
 This data set consists of data about all games entered in the last 9 iterations of the Ludum Dare competition, obtained via the public API of the official Ludum Dare site. Each entry is labeled according to its final average score in the "overall" category (from 1 to 5 stars, rounded to the nearest integer, or 0 if the game did not receive enough ratings to officially rank). This is a classification problem with 6 (unbalanced) classes. 
 For each game, there are several numerical and categorical features available. <br/>
 The training data consists of games entered in LD38 through 45, while the test data comes from LD46. LD46 was the largest Ludum Dare competition yet by a substantial margin, presumably due to a large influx of new participants on account of COVID-19 quarantine; as such, keep in mind that there may be some shift in the distribution between the training and test set.
+## Run Program
+python3 main.py
