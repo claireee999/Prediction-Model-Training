@@ -10,4 +10,4 @@ The training data consists of games entered in LD38 through 45, while the test d
 `python3 main.py` <br/>
 Install xgboost using `pip install xgboost` if needed.
 ## Result 
-The program has a prediction accuracy of 92.4% on the test set.
+The program has a prediction accuracy of 96.4% on the test set.
